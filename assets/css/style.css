@@ -1,18 +1,56 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+body {
+    
+    background-color: black;
+
+}
+
 #header {
     background-color: black;
-    color: lightgreen;
+    color: lightcyan;
+    font-family: Fantasy, Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 25px;
+    
+
 }
 
 #leftaside {
-    float: left;
+   
     text-align: center;
-    width: 25%;
+    width: 50%;
+    text-align: center;
+    display:inline-block;
+
 }
 
 #rightaside {
-    float: left;
+    
     text-align: center;
-    width: 25%;
+    width: 50%;
+    text-align: center;
+    display:inline-block;
+
 }
 
+
+#letterButtons {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 0;
+}
+
+#mainSection {
+    background-image: url(../images/Death_Star.jpg);
+    color: white;
+    padding-bottom: 150px;
+
+}
